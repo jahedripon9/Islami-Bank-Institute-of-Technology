@@ -1,0 +1,58 @@
+[
+    {
+      "userId": 1,
+      "img": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "id": 1,
+      "courseFee": 110000,
+      "title": "Computer Technology",
+      "description": "Computer technology combines the hardware of computers and computer-controlled devices with software—operating systems, authoring tools, expert systems, and courseware—to support training technology."
+    },
+    {
+      "userId": 1,
+      "img": "https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "id": 2,
+      "courseFee": 80000,
+      "title": "Civil Technology",
+      "description": "The definition of civil technology is the field of drafting, cartography, traffic technology and the analysis of construction materials to support construction, engineering, and architecture for roads, bridges and other public structures."
+    },
+    {
+      "userId": 1,
+      "img": "https://images.pexels.com/photos/3825582/pexels-photo-3825582.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "id": 3,
+      "courseFee": 123000,
+      "title": "Electronics Technology",
+      "description": "Electronics technology is the application of scientific theories and principles in the design, production, installation, testing, service, use, and control of electrical and electronic parts, equipment and systems."
+    },
+    {
+      "userId": 1,
+      "img": "https://images.pexels.com/photos/355904/pexels-photo-355904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "id": 4,
+      "courseFee": 130000,
+      "title": "Electrical Technology",
+      "description": "Electrical Technology – The technology of producing, storing, controlling, transmitting and getting work from electrical energy. (Example applications: power plant generator, flashlight, electric motor in a can opener, doorbell, electric heater, hair dryer.)"
+    },
+    {
+      "userId": 1,
+      "img": "https://images.pexels.com/photos/3785935/pexels-photo-3785935.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "id": 5,
+      "courseFee": 120000,
+      "title": "Mechanical Technology",
+      "description": "Mechanical Technology is a hands-on curriculum that provides an in-depth course of study in the technological aspects of the mechanical design profession. Students are exposed to the current technology used in industry and prepared for careers in the field of mechanical design and technology."
+    },
+    {
+      "userId": 1,
+      "img": "https://images.pexels.com/photos/5726794/pexels-photo-5726794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "id": 6,
+      "courseFee": 180000,
+      "title": "Electro-medical Technology",
+      "description": "The first Electro-Medical Technology Department was started in 2005 in Bangladesh under the Bangladesh Technical Education Board. In the meantime, there is an opportunity to study electro-medical technology in ISTT and a couple of other private institutions in Bangladesh. "
+    },
+    {
+      "userId": 1,
+      "img": "https://images.pexels.com/photos/1252807/pexels-photo-1252807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "id": 7,
+      "title": "Power Technology",
+      "courseFee": 185000,
+      "description": "Power Technology (Power Tech) consists of three related areas: Power, Energy and Transportation. This class is generally given to students in eighth grade for one marking period, meeting every other day."
+    }
+  ]

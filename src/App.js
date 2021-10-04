@@ -1,23 +1,48 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Carousels from './components/Carousels/Carousels';
+import Depatments from './components/Depatments/Depatments';
+import Footer from './Footer/Footer';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './components/Home/Home';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Router>
+        <Switch>
+          <Route exact path="/">
+          <Home></Home>
+          </Route>
+          <Route exact path="/home">
+          <Home></Home>
+          </Route>
+          <Route path="/about">
+
+          </Route>
+          <Route path="/depatment">
+            <Depatments></Depatments>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
+          </Route>
+        </Switch>
+      </Router>
+      
+      
+      
+      {/* <Header></Header>
+      <Carousels></Carousels>
+      <Depatments></Depatments>
+      <Footer></Footer> */}
     </div>
   );
 }
