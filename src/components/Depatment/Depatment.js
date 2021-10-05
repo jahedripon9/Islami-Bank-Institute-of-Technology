@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import Depatments from '../Depatments/Depatments';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const Depatment = () => {
     const [courses, setCourses] = useState([])
@@ -30,6 +32,7 @@ const Depatment = () => {
             <Header></Header>
             
             <Container className="bg-success p-2 text-dark bg-opacity-25" fluid="md">
+            <h1 className="fw-bold">Islami Bank Institute of Technology <br /> are all Diploma Courses</h1>
                 <Row>
                     <Col><div className="info-depatmant p-5  ">
                 <div className="row">
@@ -39,12 +42,18 @@ const Depatment = () => {
                            <Card className=" bg-light shadow p-3 mb-5 bg-body rounded" style={{ width: '18rem' }}>
                        <Card.Img variant="top" src={course.img} />
                       <Card.Body>
-                           <Card.Title>{course.title}</Card.Title>
+                      <ins className="text-danger"> <Card.Title>{course.title}</Card.Title></ins>
                           <Card.Text>
-                          Course Fee: {course.courseFee} <br />
                           {course.description}
+                          <br />
+                          <span className="fw-bold text-danger pt-4">Course Fee: {course.courseFee}</span>
                            </Card.Text>
-                           <Link to="/home"><Button className="btn btn-success" variant="primary">More Info</Button></Link> 
+                           {/* <Link to="/home"><Button className="btn btn-success" variant="primary">More Info</Button></Link>  */}
+                           <span className="text-warning"><FontAwesomeIcon icon={faStar} /></span>
+                           <span className="text-warning"><FontAwesomeIcon icon={faStar} /></span>
+                           <span className="text-warning"><FontAwesomeIcon icon={faStar} /></span>
+                           <span className="text-warning"><FontAwesomeIcon icon={faStar} /></span>
+                           <span className="text-warning"><FontAwesomeIcon icon={faStar} /></span>
                       </Card.Body>
                 </Card>   
                 </div>)

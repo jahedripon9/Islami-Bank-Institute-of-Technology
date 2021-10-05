@@ -5,7 +5,7 @@
       "id": 1,
       "courseFee": 110000,
       "title": "Computer Technology",
-      "description": "Computer technology combines the hardware of computers and computer-controlled devices with software—operating systems, authoring tools, expert systems, and courseware—to support training technology."
+      "description": "Computer technology combines the hardware of computers and computer-controlled devices with software—operating systems, authoring tools."
     },
     {
       "userId": 1,
@@ -13,7 +13,7 @@
       "id": 2,
       "courseFee": 80000,
       "title": "Civil Technology",
-      "description": "The definition of civil technology is the field of drafting, cartography, traffic technology and the analysis of construction materials to support construction, engineering, and architecture for roads, bridges and other public structures."
+      "description": "The definition of civil technology is the field of drafting, cartography, traffic technology and the analysis of construction materials to support."
     },
     {
       "userId": 1,
@@ -21,7 +21,7 @@
       "id": 3,
       "courseFee": 123000,
       "title": "Electronics Technology",
-      "description": "Electronics technology is the application of scientific theories and principles in the design, production, installation, testing, service, use, and control of electrical and electronic parts, equipment and systems."
+      "description": "Electronics technology is the application of scientific theories and principles in the design, production, installation, testing."
     },
     {
       "userId": 1,
@@ -29,7 +29,7 @@
       "id": 4,
       "courseFee": 130000,
       "title": "Electrical Technology",
-      "description": "Electrical Technology – The technology of producing, storing, controlling, transmitting and getting work from electrical energy. (Example applications: power plant generator, flashlight, electric motor in a can opener, doorbell, electric heater, hair dryer.)"
+      "description": "Electrical Technology – The technology of producing, storing, controlling, transmitting and getting work from electrical energy. "
     },
     {
       "userId": 1,
@@ -37,7 +37,7 @@
       "id": 5,
       "courseFee": 120000,
       "title": "Mechanical Technology",
-      "description": "Mechanical Technology is a hands-on curriculum that provides an in-depth course of study in the technological aspects of the mechanical design profession. Students are exposed to the current technology used in industry and prepared for careers in the field of mechanical design and technology."
+      "description": "Mechanical Technology is a hands-on curriculum that provides an in-depth course of study in the technological aspects of the mechanical design profession. Students are exposed to ."
     },
     {
       "userId": 1,
@@ -45,30 +45,30 @@
       "id": 6,
       "courseFee": 180000,
       "title": "Electro-medical Technology",
-      "description": "The first Electro-Medical Technology Department was started in 2005 in Bangladesh under the Bangladesh Technical Education Board. In the meantime, there is an opportunity to study electro-medical technology in ISTT and a couple of other private institutions in Bangladesh. "
+      "description": "The first Electro-Medical Technology Department was started in 2005 in Bangladesh under the Bangladesh Technical Education Board. In the meantime, there is an opportunity to study . "
     },
     {
       "userId": 1,
-      "img": "https://images.pexels.com/photos/1252807/pexels-photo-1252807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "img": "https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "id": 7,
-      "title": "Power Technology",
-      "courseFee": 185000,
-      "description": "Power Technology (Power Tech) consists of three related areas: Power, Energy and Transportation. This class is generally given to students in eighth grade for one marking period, meeting every other day."
+      "title": "Diplomas in Biochemistry",
+      "courseFee": 200000,
+      "description": "Biochemistry is the study of chemical processes that take place in living cells. This type of program is often practice related with labs, in-class discussions and lectures."
     },
     {
       "userId": 1,
-      "img": "https://images.pexels.com/photos/1252807/pexels-photo-1252807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "img": "https://images.pexels.com/photos/3747486/pexels-photo-3747486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "id": 7,
-      "title": "Power Technology",
-      "courseFee": 185000,
-      "description": "Power Technology (Power Tech) consists of three related areas: Power, Energy and Transportation. This class is generally given to students in eighth grade for one marking period, meeting every other day."
+      "title": "Computer Office Application ",
+      "courseFee": 5000,
+      "description": "Computer Office Applications course provides a solid foundation in the basic and intermediate skills for working with computer system, Word Processor."
     },
     {
       "userId": 1,
-      "img": "https://images.pexels.com/photos/1252807/pexels-photo-1252807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "img": "https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "id": 7,
-      "title": "Power Technology",
-      "courseFee": 185000,
-      "description": "Power Technology (Power Tech) consists of three related areas: Power, Energy and Transportation. This class is generally given to students in eighth grade for one marking period, meeting every other day."
+      "title": "Graphic Design",
+      "courseFee": 5000,
+      "description": "Graphic design is the profession and academic discipline whose activity consists in projecting visual communications intended to transmit."
     }
   ]

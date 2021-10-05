@@ -15,9 +15,9 @@ const Header = () => {
 
       <Container className="bg-success p-2 text-white bg-opacity-75" fluid="md">
         <Row>
-        <Navbar bg="p-3 mb-2 bg-light text-whit" expand="lg">
+        <Navbar bg="p-3 mb-2 bg-light" expand="lg">
         <Container fluid>
-          <Navbar.Brand className="text-success fw-bold fs-3" href="#">Islami Bank Institute of Technology, Sylhet</Navbar.Brand>
+          <Navbar.Brand className="text-success fw-bold fs-3">Islami Bank Institute of Technology, Sylhet</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -38,7 +38,7 @@ const Header = () => {
                 className="me-2"
                 aria-label="Search"
               />
-              <Button variant="outline-success">Search</Button>
+              <Button variant="btn btn-success">Search</Button>
             </Form>
           </Navbar.Collapse>
         </Container>

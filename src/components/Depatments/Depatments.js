@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faStar, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const Depatments = () => {
     
@@ -36,7 +36,7 @@ const Depatments = () => {
                 <Col> <hr />
                 <div className="Course-container py-4"> 
                     {/* <Header></Header> */}
-                    <h1>All Depatment</h1>
+                    <h1 className="fw-bold">Islami Bank Institute of Technology <br /> are all Diploma Courses</h1>
                     <div className="Search">
                     <input onChange={handleOnChange} className="p-2  rounded-pill " type="text" />
                     <button className="p-2 btn btn-primary rounded-pill ">Serach</button>
@@ -46,17 +46,21 @@ const Depatments = () => {
                         <div className="row"> 
                             {
                             courses.slice(0, 4).map((course)=> 
-                            <div className="col-md-3 py-4"> 
-                                <Card className=" bg-light shadow p-3 mb-5 bg-body rounded" style={{ width: '18rem' }}>
+                            <div className="col-md-3 "> 
+                                <Card className=" bg-light shadow p-3 mb-5 bg-body rounded h-auto  " style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={course.img} />
                             <Card.Body>
-                                <Card.Title>{course.title}</Card.Title>
+                            <ins className="text-success "> <Card.Title>{course.title}</Card.Title></ins>
                                 <Card.Text>
-                                Course Fee: {course.courseFee} <br />
-                                {course.description}
+                                {course.description} <br />
                                 </Card.Text>
+                                <span className="fw-bold text-danger">Course Fee: {course.courseFee}</span> <br />
                                 <Link to="/depatment"><Button className="btn btn-success" variant="primary">More Info <FontAwesomeIcon icon={faArrowRight} /> </Button></Link> <hr />
-                                
+                                <span className="text-warning"><FontAwesomeIcon icon={faStar} /></span>
+                                <span className="text-warning"><FontAwesomeIcon icon={faStar} /></span>
+                                <span className="text-warning"><FontAwesomeIcon icon={faStar} /></span>
+                                <span className="text-warning"><FontAwesomeIcon icon={faStar} /></span>
+                                <span className="text-warning"><FontAwesomeIcon icon={faStar} /></span>
                             </Card.Body>
                         </Card>   
                         </div>)

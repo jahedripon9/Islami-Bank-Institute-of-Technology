@@ -7,11 +7,11 @@ const About = () => {
     return (
         <div>
             <Header></Header>
-            <Container fluid="md">
+            <Container className="py-4 bg-success p-2 text-dark bg-opacity-25" fluid="md">
                 <Row>
                     
                 <Col>
-                <Card>
+                <Card >
                     <Card.Header className="fs-1">Computer Technology</Card.Header>
                     <Card.Body>
                         <blockquote className="blockquote mb-0">
