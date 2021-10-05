@@ -2,11 +2,9 @@ import Button from '@restart/ui/esm/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './logo.jpeg'
-import { Container, Form, FormControl, Nav, Navbar, NavDropdown, Row } from 'react-bootstrap';
-
-import Depatments from '../Depatments/Depatments';
+import { Container, Form, FormControl, Nav, Navbar, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Contactus from '../Contactus/Contactus';
+
 
 
 const Header = () => {

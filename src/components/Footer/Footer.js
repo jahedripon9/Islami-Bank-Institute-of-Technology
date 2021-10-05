@@ -1,8 +1,6 @@
 import React from 'react';
-import { Col, Container, Nav, Navbar, NavDropdown, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  } from '@fortawesome/free-solid-svg-icons'
+import { Col, Container, Row } from 'react-bootstrap';
+
 
 
 const Footer = () => {

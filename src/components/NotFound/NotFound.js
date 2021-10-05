@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from '../Header/Header';
 import './NotFound.css'
 const NotFound = () => {
     return (
