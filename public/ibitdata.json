@@ -54,5 +54,21 @@
       "title": "Power Technology",
       "courseFee": 185000,
       "description": "Power Technology (Power Tech) consists of three related areas: Power, Energy and Transportation. This class is generally given to students in eighth grade for one marking period, meeting every other day."
+    },
+    {
+      "userId": 1,
+      "img": "https://images.pexels.com/photos/1252807/pexels-photo-1252807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "id": 7,
+      "title": "Power Technology",
+      "courseFee": 185000,
+      "description": "Power Technology (Power Tech) consists of three related areas: Power, Energy and Transportation. This class is generally given to students in eighth grade for one marking period, meeting every other day."
+    },
+    {
+      "userId": 1,
+      "img": "https://images.pexels.com/photos/1252807/pexels-photo-1252807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "id": 7,
+      "title": "Power Technology",
+      "courseFee": 185000,
+      "description": "Power Technology (Power Tech) consists of three related areas: Power, Energy and Transportation. This class is generally given to students in eighth grade for one marking period, meeting every other day."
     }
   ]

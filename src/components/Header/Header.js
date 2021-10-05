@@ -2,14 +2,19 @@ import Button from '@restart/ui/esm/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './logo.jpeg'
-import { Container, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import Footer from '../../Footer/Footer';
+import { Container, Form, FormControl, Nav, Navbar, NavDropdown, Row } from 'react-bootstrap';
+
 import Depatments from '../Depatments/Depatments';
+import { Link } from 'react-router-dom';
+import Contactus from '../Contactus/Contactus';
 
 
 const Header = () => {
     
     return (
+
+      <Container className="bg-success p-2 text-white bg-opacity-75" fluid="md">
+        <Row>
         <Navbar bg="p-3 mb-2 bg-light text-whit" expand="lg">
         <Container fluid>
           <Navbar.Brand className="text-success fw-bold fs-3" href="#">Islami Bank Institute of Technology, Sylhet</Navbar.Brand>
@@ -20,19 +25,11 @@ const Header = () => {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link href="#action1">Home</Nav.Link>
-              <Nav.Link href="#action2">Link</Nav.Link>
-              <NavDropdown title="Link" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
-                  Something else here
-                </NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link href="#" disabled>
-                Link
-              </Nav.Link>
+              <Link className='ps-4 text-decoration-none text-black fs-6 fw-bold' to='/home'>Home</Link>
+              <Link className='ps-4 text-decoration-none text-black fs-6 fw-bold' to='/about'>About</Link>
+              <Link className='ps-4 text-decoration-none text-black fs-6 fw-bold' to='/depatment'>Depatment</Link>
+              <Link className='ps-4 text-decoration-none text-black fs-6 fw-bold ' to='/contactus'>Contact Us</Link>
+             
             </Nav>
             <Form className="d-flex">
               <FormControl
@@ -46,6 +43,13 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+        </Row>
+      </Container>
+
+
+
+
+        
 
      
     );

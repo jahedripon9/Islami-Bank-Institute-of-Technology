@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Carousels from './components/Carousels/Carousels';
 import Depatments from './components/Depatments/Depatments';
-import Footer from './Footer/Footer';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,6 +12,10 @@ import {
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
+import Contactus from './components/Contactus/Contactus';
+import Depatment from './components/Depatment/Depatment';
+import About from './components/About/About';
+
 
 function App() {
   return (
@@ -26,11 +30,16 @@ function App() {
           <Home></Home>
           </Route>
           <Route path="/about">
-
+            <About></About>
           </Route>
+          <Route path="/contactus">
+            <Contactus></Contactus>
+          </Route>
+          
           <Route path="/depatment">
-            <Depatments></Depatments>
+            <Depatment></Depatment>
           </Route>
+          
           <Route path="*">
             <NotFound></NotFound>
           </Route>
