@@ -44,8 +44,8 @@ const Depatments = () => {
                     <div className="info-depatmant p-5">
                         <div className="row"> 
                             {
-                            courses.slice(0, 4).map((course)=> 
-                            <div className="col-md-3 "key={course.id}> 
+                            courses.slice(0, 3).map((course)=> 
+                            <div className="col-md-4 "key={course.id}> 
                                  
                                 <Card className=" bg-light shadow p-3 mb-5 bg-body rounded h-auto  " style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={course.img}  />
