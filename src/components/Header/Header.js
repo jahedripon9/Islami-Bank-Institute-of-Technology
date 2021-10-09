@@ -13,9 +13,9 @@ const Header = () => {
 
       <Container className="bg-success p-2 text-white bg-opacity-75" fluid="md">
         <Row>
-        <Navbar bg="p-3 mb-2 bg-light" expand="md">
+        <Navbar bg="p-2 mb-2 bg-light" expand="md">
         <Container fluid>
-          <Navbar.Brand className="text-success fw-bold fs-3 ">Islami Bank Institute of Technology, Sylhet</Navbar.Brand>
+          <Navbar.Brand className="text-success fw-bold fs-5 text-wrap ">Islami Bank Institute of Technology, Sylhet</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -23,7 +23,7 @@ const Header = () => {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Link className='ps-4 text-decoration-none text-black fs-6 fw-bold' to='/home'>Home</Link>
+              <Link className='ps-3 text-decoration-none text-black fs-6 fw-bold' to='/home'>Home</Link>
               <Link className='ps-4 text-decoration-none text-black fs-6 fw-bold' to='/about'>About</Link>
               <Link className='ps-4 text-decoration-none text-black fs-6 fw-bold' to='/depatment'>Depatment</Link>
               <Link className='ps-4 text-decoration-none text-black fs-6 fw-bold ' to='/contactus'>Contact Us</Link>
